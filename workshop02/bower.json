@@ -1,0 +1,20 @@
+{
+  "name": "workshop02",
+  "homepage": "https://github.com/chukmunnlee/madh5_workshop",
+  "authors": [
+    "Chuk <chukmunnlee@gmail.com>"
+  ],
+  "description": "Template for workshop02",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.6.2"
+  }
+}
