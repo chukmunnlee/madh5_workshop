@@ -1,0 +1,20 @@
+{
+  "name": "workshop03",
+  "homepage": "https://github.com/chukmunnlee/madh5_workshop",
+  "authors": [
+    "Chuk <chukmunnlee@gmail.com>"
+  ],
+  "description": "Template for workshop03",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ionic": "v1.3.2"
+  }
+}
