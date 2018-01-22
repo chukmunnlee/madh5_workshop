@@ -5,6 +5,7 @@ import java.util.logging.Logger;
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
 import javax.websocket.OnClose;
+import javax.websocket.OnMessage;
 import javax.websocket.OnOpen;
 import javax.websocket.Session;
 import javax.websocket.server.ServerEndpoint;
@@ -47,5 +48,10 @@ public class PushNewsSocket {
 			logger.warning(String.format("@OnClose exception: id=%1$s, msg=%1$s", session.getId(), ex.getMessage()));
 		}
 
+	}
+
+	@OnMessage
+	public void message(String msg) {
+		logger.info(String.format("@OnMessage: Ignoring message:\n\t%s", msg));
 	}
 }
