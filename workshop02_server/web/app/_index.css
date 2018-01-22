@@ -24,7 +24,6 @@
     overflow: hidden;    
 }
 .newsitem .content > .description {
-    //position: relative;    
     font-size: 1.4em;           
 }
 
@@ -36,7 +35,6 @@
 }
 
 .newsitem .content > .pubdate {      
-    //clear: right;    
     float: right;    
     text-align: right;        
     font-style: italic;
@@ -70,14 +68,6 @@
     font-size: 0.7em;
     font-style: italic;
     text-align: right;
-}
-
-#commentText {
-    width: 100%;
-    border-radius: 7px;
-}
-#username {
-    width:90%;
 }
 
 table {
